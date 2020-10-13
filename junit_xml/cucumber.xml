@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.310319">
+    <testcase classname="Careers" name="Check that a user can select a categoty and location" time="28.310319">
+        <system-out>
+            <![CDATA[Given user launches chrome browser..........................................passed
+When user navigates to the URL "https://parallelscore.com"..................passed
+And the user selects Full time from the catory drop-down field..............passed
+And the user selects Lagos from the Location drop-down field................passed
+And the user clicks on the search button....................................passed
+Then the Careers – ParallelScore page should be displayed to the user.......passed
+And the user closes the browser.............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

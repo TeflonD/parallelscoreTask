@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Check that a user can select a categoty and location",
+        "description": "",
+        "id": "careers;check-that-a-user-can-select-a-categoty-and-location",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5586100200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launches chrome browser",
+            "match": {
+              "location": "Steps.user_launches_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11954160200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to the URL \"https://parallelscore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://parallelscore.com",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.user_navigates_to_the_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4180681500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user selects Full time from the catory drop-down field",
+            "match": {
+              "location": "Steps.the_user_selects_Full_time_from_the_catory_drop_down_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274893000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects Lagos from the Location drop-down field",
+            "match": {
+              "location": "Steps.the_user_selects_Lagos_from_the_Location_drop_down_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1977071500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on the search button",
+            "match": {
+              "location": "Steps.the_user_clicks_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3368307300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the Careers – ParallelScore page should be displayed to the user",
+            "match": {
+              "location": "Steps.the_Careers_ParallelScore_page_should_be_displayed_to_the_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 969105200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user closes the browser",
+            "match": {
+              "location": "Steps.the_user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Careers",
+    "description": "",
+    "id": "careers",
+    "keyword": "Feature",
+    "uri": "./Features/careers.feature"
+  }
+]
